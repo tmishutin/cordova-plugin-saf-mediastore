@@ -16,6 +16,7 @@
 	</js-module>
 
 	<platform name="android">
+		<framework src="androidx.documentfile:documentfile:1.0.1" />
 		<config-file parent="/*" target="res/xml/config.xml">
 			<feature name="SafMediastore">
 				<param name="android-package" value="com.customautosys.saf_mediastore.SafMediastore"/>
